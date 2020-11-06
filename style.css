@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    
+    
+}
+.main {
+    background-color: silver;
+    font-family: cursive;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.community {
+    color: #2BB3B1;
+    
+    font-size: 2rem;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.day {
+    color: #BFDF32;
+    font-size: 1.5rem;
+    padding-left: 40px;
+}
+.norm {
+    color: #555;
+    padding-left: 40px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    padding-bottom: 30px;
+}
+.left {
+    float: left;
+    background-color: #2BB3B1;
+    
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.right {
+    float: right;
+    background-color: #4ABEBD;
+    
+    padding-left: 40px;
+    padding-bottom: 30px;
+
+}
+button {
+    width: 80%;
+    height: 40px;
+    background-color: #BFDF32;
+    color: white;
+    border: none;
+    
+
+}
+
+.button {
+    padding-top: 30px;
+}
+button:hover {
+    background-color: white;
+    color:#BFDF32;
+}
+.submain {
+    font-weight: bold;
+    font-size: 1.6;
+    padding-top: 30px;
+}
+.dollar {
+    font-size: larger;
+}
+span {
+    font-size: medium;
+    color: burlywood;
+}
